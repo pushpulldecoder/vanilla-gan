@@ -65,6 +65,7 @@ https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf <br>
 </pre>
 <br>
 <br>
+
 ## Generator Network
 <pre>
 
@@ -120,20 +121,20 @@ https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf <br>
 <br>
 
 ## Dependencies
-- Torch
-https://pytorch.org/
-- Torchvision
-https://pytorch.org/
-- Numpy <br>
-pip install numpy
-- Pandas <br>
-pip install pandas
-- Matplotlib <br>
-pip install matplotlib
-- tensorboardX <br>
-pip install tensorboardX
-- IPython <br>
-pip install ipython
+* Torch
+    * https://pytorch.org/
+* Torchvision
+    * https://pytorch.org/
+* Numpy
+    * pip install numpy
+* Pandas
+    * pip install pandas
+* Matplotlib
+    * pip install matplotlib
+* tensorboardX
+    * pip install tensorboardX
+* IPython
+    * pip install ipython
 
 <br>
 <br>
