@@ -7,6 +7,13 @@ It is implementation of Vanilla GAN using PyTorch over GPU according to paper by
 https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf <br>
 <br>
 
+## GAN Epochs
+
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/gan.gif height="300" width="300">
+
+<br>
+<br>
+
 ## Discriminator Network
 <pre>
 
@@ -254,4 +261,37 @@ Here, <i>discriminator</i> network and <i>generator</i> network both are being t
 For every epoch, first <i>discriminator</i> network is being trained and next <i>generator</i> network <br>
 Discriminator is trained for both, true data and random noise <br>
 
-## To use CPU only, remove <i>cuda()</i> from everywhere
+### To use CPU only, remove <i>cuda()</i> from everywhere
+
+## Generated Images
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step0.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step10.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step20.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step30.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step40.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step50.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step70.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step90.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step170.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step200.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step790.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step2330.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step2550.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step2870.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step3150.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step3210.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step3670.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step3910.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step4230.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step4240.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step4530.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step5320.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step5550.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step5890.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step6000.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step6760.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step6980.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step7640.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step7750.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step8190.png height="300" width="300">
+<img src=https://github.com/pushpull13/vanilla-gan/blob/master/img/Step10900.png height="300" width="300">
