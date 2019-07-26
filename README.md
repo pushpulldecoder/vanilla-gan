@@ -17,7 +17,7 @@ https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf <br>
                        \/
               ____________________
              |   LeakyRelu(0.3)   |
-   hidden0   |                    |   [no_data, gan_out_size] X [gan_out_size, 512]  ->  [no_data, 512]
+   hidden0   |                    |   [no_data, gan_out_size] X [gan_out_size, 512] -> [no_data, 512]
              |    Dropout(0.2)    |
              |____________________|
 
@@ -27,7 +27,7 @@ https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf <br>
                        \/
               ____________________
              |   LeakyRelu(0.3)   |
-   hidden1   |                    |   [no_data, 512] X [512, 256]  ->  [no_data, 256]
+   hidden1   |                    |   [no_data, 512] X [512, 256] ->  [no_data, 256]
              |    Dropout(0.2)    |
              |____________________|
 
@@ -37,7 +37,7 @@ https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf <br>
                        \/
               ____________________
              |   LeakyRelu(0.3)   |
-   hidden2   |                    |   [no_data, 256] X [256, 128]  ->  [no_data, 128]
+   hidden2   |                    |   [no_data, 256] X [256, 128] -> [no_data, 128]
              |    Dropout(0.2)    |
              |____________________|
 
@@ -47,7 +47,7 @@ https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf <br>
                        \/
               ____________________
              |                    |
-   out       |      Sigmoid       |   [no_data, 512] X [128, 1]  ->  [no_data, 1]
+   out       |      Sigmoid       |   [no_data, 512] X [128, 1] -> [no_data, 1]
              |                    |
              |____________________|
 
@@ -75,7 +75,7 @@ https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf <br>
                        \/
               ____________________
              |                    |
-   hidden0   |   LeakyRelu(0.3)   |   [no_data, gan_in_size] X [gan_in_size, 128]  ->  [no_data, 128]
+   hidden0   |   LeakyRelu(0.3)   |   [no_data, gan_in_size] X [gan_in_size, 128] -> [no_data, 128]
              |____________________|
 
                        ||
@@ -84,7 +84,7 @@ https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf <br>
                        \/
               ____________________
              |                    |
-   hidden1   |   LeakyRelu(0.3)   |   [no_data, 128] X [128, 256]  ->  [no_data, 256]
+   hidden1   |   LeakyRelu(0.3)   |   [no_data, 128] X [128, 256] -> [no_data, 256]
              |____________________|
 
                        ||
@@ -93,7 +93,7 @@ https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf <br>
                        \/
               ____________________
              |                    |
-   hidden2   |   LeakyRelu(0.3)   |   [no_data, 256] X [256, 512]  ->  [no_data, 512]
+   hidden2   |   LeakyRelu(0.3)   |   [no_data, 256] X [256, 512] -> [no_data, 512]
              |____________________|
 
                        ||
@@ -103,7 +103,7 @@ https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf <br>
                        \/
               ____________________
              |                    |
-   out       |      Sigmoid       |   [no_data, 512] X [512, gan_out_size]  ->  [no_data, gan_out_size]
+   out       |      Sigmoid       |   [no_data, 512] X [512, gan_out_size] -> [no_data, gan_out_size]
              |____________________|
 
                        ||
@@ -118,6 +118,7 @@ https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf <br>
 </pre>
 <br>
 <br>
+
 ## Dependencies
 - Torch
 https://pytorch.org/
